@@ -1,0 +1,17 @@
+body {background-color: BLACK;}
+.img-container {
+text-align: center;
+}
+h1 {
+border-style: dashed;
+}
+h4 {
+    float: right;
+}
+#rcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
