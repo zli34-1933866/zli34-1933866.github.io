@@ -1,6 +1,8 @@
-body {background-color: BLACK;}
+body {
+    background-color: BLACK;
+}
 .img-container {
-text-align: center;
+    text-align: center;
 }
 h1 {
     color: white;
@@ -10,6 +12,7 @@ h2 {
     color: white;
 }
 h4 {
+    color: white;
     float: right;
 }
 #rcorners {
@@ -17,5 +20,5 @@ h4 {
     border: 2px solid #73AD21;
     padding: 20px; 
     width: 200px;
-    height: 150px;  
-  }
+    height: 150px; 
+}
