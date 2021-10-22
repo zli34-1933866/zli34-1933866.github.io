@@ -1,6 +1,31 @@
 
+/* unvisited link */
+a:link {
+color: yellow;
+}
+
+/* visited link */
+a:visited {
+color: green;
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: blue;
+}
+
+img {
+    opacity: 0.5;
+}
+
 body{
 	background-image: url('dark_wood.png');
+    
 }
 
 #Header{
@@ -74,10 +99,6 @@ ul{
 	text-align: center;
 	border: solid 8px black;
 	background-color: #8E41D5;
-}
-
-.titles{
-	
 }
 
 #bow{
