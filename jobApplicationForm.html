@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Job Application</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+<h2>Job Application</h2>
+<p>&nbsp;</p>
+
+<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset class="form-horizontal" >
+		<legend>Account</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Username</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="username">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Password</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="password" name="password">
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset class="form-horizontal" >
+		<legend>Personal Information</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Full name</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="name">
+			</div>
+		</div>
+        <label class="col-sm-12 control-label">Do you like panda?</label>
+        <div class="col-sm-offset-1 col-sm-11">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="legal" value="yes">Yes
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="legal" value="no">No
+                </label>
+            </div>
+        </div>
+        <div class="form-group row">
+			<label class="col-sm-12 control-label">What type of panda do you like? (check all that apply)</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="perfer_type" value="parttime">
+						Giant Panda
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="perfer_type" value="fulltime">
+						Red Panda
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Which work location are you applying?</label>
+			<div class="col-sm-9">
+				<select class="form-control" name="city">
+					<option value="" selected="true">Choose a City</option>
+					<option value="AL">BeiJing</option>
+					<option value="AK">ShangHai</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label">Please describe any pervious experience:</label>
+			<textarea class="form-control" name="experience" rows="10"></textarea>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+
+	<p>&nbsp;</p>
+
+</form>
+</div><!-- close .container -->
+</body>
+</html>
